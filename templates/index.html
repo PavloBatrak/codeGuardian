@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeGuardian: Rise of the Tester</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>CodeGuardian: Rise of the Tester</h1>
+    <div id="game-container"></div>
+
+    <!-- Phaser.js bibliotek -->
+    <script src="https://cdn.jsdelivr.net/npm/phaser@3/dist/phaser.js"></script>
+
+    <!-- Pliki gry -->
+    <script type="module" src="{{ url_for('static', filename='js/comicIntro.js') }}"></script>
+    <script type="module" src="{{ url_for('static', filename='js/level1.js') }}"></script>
+    <script type="module" src="{{ url_for('static', filename='js/game.js') }}"></script>
+</body>
+</html>

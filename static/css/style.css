@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#tutorial-container {
+    margin-top: 100px;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2em;
+    color: #666;
+    line-height: 1.6;
+}
+
+#step-container {
+    margin-top: 20px;
+}
+
+#next-step-btn {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#next-step-btn:hover {
+    background-color: #45a049;
+}
+
+#next-step-btn:active {
+    background-color: #3e8e41;
+}
+
+#step-text {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 20px;
+}
